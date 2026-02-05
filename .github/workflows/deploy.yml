@@ -12,9 +12,6 @@ on:
 jobs:
   Deploy-Production:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: loc-counter
 
     steps:
       - uses: actions/checkout@v4
